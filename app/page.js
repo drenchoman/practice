@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
+import Header from './header';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Welcome to this NEXTJS course!</h1>
-      <p>Lesh gooo!</p>
+      <Header />
       <p>
         <Link href="/about">About Us</Link>
       </p>
